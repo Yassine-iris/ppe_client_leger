@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce7f003c-0a12-4a7c-a6c6-c45b21d0b995" name="Default Changelist" comment="ajout table admin">
+    <list default="true" id="ce7f003c-0a12-4a7c-a6c6-c45b21d0b995" name="Default Changelist" comment="ajout fonction et panel admin">
+      <change afterPath="$PROJECT_DIR$/vueContact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <updated>1622982860271</updated>
       <workItem from="1622982866492" duration="8882000" />
       <workItem from="1623012429525" duration="411000" />
-      <workItem from="1623017729235" duration="3763000" />
+      <workItem from="1623017729235" duration="4996000" />
     </task>
     <task id="LOCAL-00001" summary="ajout ppe">
       <created>1623012580860</created>
@@ -68,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623021791856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ajout fonction et panel admin">
+      <created>1623021986619</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623021986619</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +98,8 @@
     <MESSAGE value="ajout ppe" />
     <MESSAGE value="ajout tacle admin" />
     <MESSAGE value="ajout table admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout table admin" />
+    <MESSAGE value="ajout fonction et panel admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout fonction et panel admin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
