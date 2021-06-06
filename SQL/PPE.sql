@@ -1,4 +1,4 @@
-drop database Filelec;
+drop database if exists Filelec;
 create database Filelec;
 use Filelec;
 
@@ -18,6 +18,26 @@ TypeC enum ('Particulier', 'Professionnel') ,
 QualifClient enum ('Client Grand Courant', 'Client Courant', 'Prospect'),
 primary key (idC)
 );
+
+--
+-- Structure de la table `admins`
+--
+
+DROP TABLE IF EXISTS `admins`;
+CREATE TABLE IF NOT EXISTS `admins` (
+    `IdAdmins` int(11) NOT NULL,
+    `AdminUser` varchar(60) DEFAULT NULL,
+    `AdminPass` varchar(60) DEFAULT NULL,
+    PRIMARY KEY (`IdAdmins`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `admins`
+--
+
+INSERT INTO `admins` (`IdAdmins`, `AdminUser`, `AdminPass`) VALUES
+(1, 'Yassine', 'Test');
+
 
 create table bonFabrication 
 (
