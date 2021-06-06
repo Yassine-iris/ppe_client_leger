@@ -106,7 +106,7 @@ foreign key (numC) references commande (numC),
 foreign key (idE) references equipement (idE)
 );
 
-/*create table ligneFabrication
+/*create table ligneFabrication ;
 (
 QteF int (5),
 idE int (5) ,
